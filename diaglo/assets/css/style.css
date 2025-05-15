@@ -1,0 +1,155 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+/* Tambahkan di akhir file style.css */
+.menu {
+    margin-top: 20px;
+}
+
+.btn {
+    display: block;
+    margin: 10px 0;
+    padding: 12px;
+    background: #28a745;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    background: #218838;
+}
+
+.btn-logout {
+    display: block;
+    margin-top: 20px;
+    padding: 10px;
+    background: #dc3545;
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+}
+
+/* Tambahkan ini */
+.question {
+    margin: 20px 0;
+}
+
+.options label {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    background: #f8f9fa;
+    border-radius: 4px;
+    border-left: 4px solid #6c757d;
+    cursor: pointer;
+}
+
+.options label:hover {
+    background: #e9ecef;
+    border-left-color: #007bff;
+}
+
+.options input[type="radio"] {
+    margin-right: 10px;
+}
+
+/* Tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table,
+th,
+td {
+    border: 1px solid #ddd;
+}
+
+th,
+td {
+    padding: 12px;
+    text-align: left;
+}
+
+/* Tombol Aksi */
+.btn-edit {
+    background: #ffc107;
+    color: #000;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.btn-delete {
+    background: #dc3545;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+/* Dropdown Role */
+select {
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+/* Konfirmasi Hapus */
+.confirm-delete {
+    color: #dc3545;
+    text-decoration: none;
+}
+
+.confirm-delete:hover {
+    text-decoration: underline;
+}
+
+:root {
+    --primary: #2e59d9;
+    /* Warna utama */
+    --secondary: #f8f9fc;
+    /* Warna latar */
+    --accent: #1c3ca1;
+    /* Warna aksen */
+}
